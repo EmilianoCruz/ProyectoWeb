@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>Registrar Usuario</title>
+ <title>Registro</title>
  <meta charset = "utf-8">
  <link rel="stylesheet" href ="estilos.css">
 </head>
@@ -28,7 +28,8 @@ session_start();
 
 <body>
  <header>
- <h2 style="text-align:center">Registro </h2>
+ <a href="index.php" class='inicio'>Inicio</a> 
+ <h1 style="text-align:center">Registro </h1>
 </header>
 
 <div class="formulario">
