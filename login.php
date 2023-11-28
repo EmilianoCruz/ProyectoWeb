@@ -8,6 +8,8 @@
     <title>ICO</title>
 </head>
 <body>
+<a href="index.php" class='inicio'>Inicio</a> 
+<br><br>
 <form action="principal.php" method="post">
     <div class="ventana">
         <br>

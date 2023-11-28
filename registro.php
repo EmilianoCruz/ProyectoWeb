@@ -29,6 +29,7 @@ session_start();
 <body>
  <header>
  <a href="index.php" class='inicio'>Inicio</a> 
+ <br><br>
  <h1 style="text-align:center">Registro </h1>
 </header>
 
