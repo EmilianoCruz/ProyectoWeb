@@ -31,7 +31,7 @@ session_start();
  <h2 style="text-align:center">Registro </h2>
 </header>
 
-
+<div class="formulario">
 <form action="submit_registro.php" method="post">
 
  <hr />
@@ -81,6 +81,7 @@ session_start();
  <input type="reset" name="clear" class="btn btn-primary" value="Borrar">
     
  </form>
-
+ </div>
+ 
  </body>
 </html>

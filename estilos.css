@@ -62,7 +62,7 @@ button:hover{
 }
 
 
-form{
+.formulario{
 	width:300px;
 	padding:16px;
 	border-radius:10px;
@@ -74,4 +74,10 @@ form label{
 	width:72px;
 	font-weight:bold;
 	display:inline-block;
+}
+
+
+
+.container {
+    border: solid 1px rgba(255, 255, 255, 0.2);
 }
