@@ -9,12 +9,12 @@
 </head>
 <body>
     <div class='encabezados'>
-        <h1>Proyecto final Programación web I 1510</h1>
+        <h1>Proyecto final Programación web I 1510</h1> 
         <p>Emiliano Cruz</p>
     </div>
     <div class = 'menu'>
-        <a href="registro.php"> Registro</a>
-        <a href="login.php">Inciar Sesión</a>
+        <a class = "opciones" href="registro.php"> Registro</a> <br><br>
+        <a class = "opciones" href="login.php">Inciar Sesión</a>
     </div>
 </body>
 </html>
