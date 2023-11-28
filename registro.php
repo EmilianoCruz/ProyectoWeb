@@ -76,12 +76,12 @@ session_start();
 <label for="pass">Password:</label><br>
 <input type="password" name="password" maxlength="8" required>
 </div>
- <br/><br/>
- <input type="submit" name="submit" class="raise" value="Registrarme">
- <input type="reset" name="clear" class="raise" value="Borrar">
+<br/><br/>
+<input type="submit" name="submit" class='raise' value="Registrarme">
+<input type="reset" name="clear" class='raise' value="Borrar">
     
- </form>
- </div>
+</form>
+</div>
 
- </body>
+</body>
 </html>

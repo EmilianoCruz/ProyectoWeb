@@ -17,7 +17,7 @@
         <label for="contraseña">Ingresa tu contraseña</label><br>
         <input type="password" name="password" required placeholder="Contraseña" class="tamaño">
         <br><br>
-        <button>Iniciar sesion</button>
+        <button class='raise'>Iniciar sesion</button>
         <br><br>
 
     </div>

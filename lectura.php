@@ -13,6 +13,7 @@ mysqli_set_charset($conexion,'utf8');
 </head>
 <body>
 
+<h1>Listas</h1>
 <div class="container">
     <?php
     $consulta_sql = "SELECT * FROM usuarios";
