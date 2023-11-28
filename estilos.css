@@ -37,3 +37,31 @@ body{
 .opciones:hover{
     background: peru; 
 }
+
+
+body{
+    background: rgb(202, 116, 55);
+    text-align: center;
+}
+button:hover{
+    background: brown;
+}
+
+.ventana{
+    background: blanchedalmond;
+    text-align: center;
+    border: 5px solid burlywood /* borde tamaño y color; */;
+    box-shadow: 5px 5px 5px bisque;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tamaño{
+    padding-left: 20px;
+    text-align: center;
+}
+
