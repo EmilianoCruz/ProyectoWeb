@@ -2,6 +2,7 @@ body{
     background: rgb(202, 116, 55);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .menu{
@@ -34,13 +35,13 @@ body{
 }
 
 .opciones:hover{
-    background: peru; 
+    background: darksalmon; 
 }
 
 
-button:hover{
+/* button:hover{
     background: brown;
-}
+} */
 
 .ventana{
     background: blanchedalmond;
@@ -76,8 +77,72 @@ form label{
 	display:inline-block;
 }
 
-
-
+/* Estilos de los registros */
 .container {
-    border: solid 1px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 400px;
+    
 }
+table {
+    color: lightgoldenrodyellow;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    
+}
+
+thead {
+    background: rebeccapurple;
+}
+
+th {
+    padding: 20px 15px ;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    border-bottom: solid 1px rgb(255, 255, 255);
+}
+
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: darkslateblue;
+}
+
+
+
+/* Estilos del boton */
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+
+.raise {
+    --color: darkred;
+    --hover: red;
+  }
+
+button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: darkred;
+}
+

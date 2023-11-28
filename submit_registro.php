@@ -12,7 +12,7 @@ $result = $conexion -> query($buscarUsuario);
 $count = mysqli_num_rows($result);
 
 if($count ==1 ){
-    echo'El nombre se usuario ya a sido ocupado';
+    echo'El nombre se usuario ya ha sido ocupado';
     header('Location: ./registro.php');
     
 }else{
