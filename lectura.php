@@ -1,19 +1,15 @@
 <?php
-// se usa el requiere para si psi se necesita el archivo conexion
 require "conexion.php";
 mysqli_set_charset($conexion,'utf8');
 
 
-//genear el query
 $consulta_sql="SELECT * FROM usuarios";
 
-//mandar el query por medio de la conexion y almacenaremos el resultado en una variable
 $resultado = $conexion->query($consulta_sql);
 
-// Retorna el numero de filas del resultado. Si encuentra mas de uno lo usamos para imprimir el resultado en nuestra tabla
 $count = mysqli_num_rows($resultado); 
  
-echo "<table border='2' >
+echo "<table border='2'>
     <tr>
         <th>ID</th>
         <th>Nombre</th>
