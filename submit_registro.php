@@ -34,11 +34,7 @@ if($count ==1 ){
     '$_POST[password]'        
     )");
 
-echo "<br />" . "<h2>" . "Usuario Creado Exitosamente!" . "</h2>";
-echo "<h4>" . "Bienvenido: " . $_POST['usuario'] . "</h4>" . "\n\n";
-echo "<h5>" . "<a href='./index.php'>Inicio</a>" . "</h5>";
-
-//termina el else
+header('Location: ./index.php');
 }
 
 
