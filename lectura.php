@@ -21,8 +21,7 @@ echo "<table border='2' >
         <th>Telefono</th>
         <th>Correo</th>
         <th>Nombre usuario</th>
-        <th>Correo Electronico</th>
-    
+        <th>Numero de cuenta</th> 
     </tr>";
 
 if ( $count>0 ){

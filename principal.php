@@ -12,7 +12,7 @@ $array = mysqli_fetch_array($consulta);
 
 if($array['contar']>0){
     echo "Ingresaste";
-    header("location: ./prueba.php");
+    header("location: ./lectura.php");
 }else{
 
         header("location: ./index.php");
