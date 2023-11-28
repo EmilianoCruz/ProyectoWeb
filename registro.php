@@ -64,6 +64,12 @@ session_start();
 <input type="text" name="nombre_usuario" maxlength="255"  required>
 <br/><br/>
 </div>
+<!--N° de cuenta-->
+<div class="form-group">
+<label for="numero">N° de cuenta Usuario:</label><br>
+<input type="text" onkeypress="return valida(event)" name="no_cuenta" maxlength="10"  required>
+<br/><br/>
+</div>
 <!--Password-->
 <div class="form-group">
 <label for="pass">Password:</label><br>

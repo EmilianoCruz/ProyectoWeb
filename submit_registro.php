@@ -21,6 +21,7 @@ if($count ==1 ){
     direccion,
     telefono,
     correo,
+    no_cuenta,
     nombre_usuario,
     password)
         VALUES(
@@ -28,6 +29,7 @@ if($count ==1 ){
     '$_POST[direccion]',
     '$_POST[telefono]',
     '$_POST[correo]',
+    '$_POST[no_cuenta]',
     '$_POST[nombre_usuario]',
     '$_POST[password]'        
     )");
