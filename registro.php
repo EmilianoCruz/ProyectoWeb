@@ -6,6 +6,7 @@ session_start();
 <head>
  <title>Registrar Usuario</title>
  <meta charset = "utf-8">
+ <link rel="stylesheet" href ="estilos.css">
 </head>
 
 
@@ -78,11 +79,7 @@ session_start();
  <br/><br/>
  <input type="submit" name="submit" class="btn btn-primary" value="Registrarme">
  <input type="reset" name="clear" class="btn btn-primary" value="Borrar">
- 
-<select>
-     
-</select>     
-
+    
  </form>
 
  </body>

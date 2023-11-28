@@ -33,11 +33,9 @@ body{
         
 }
 
-
 .opciones:hover{
     background: peru; 
 }
-
 
 
 button:hover{
@@ -63,3 +61,17 @@ button:hover{
     text-align: center;
 }
 
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color: blanchedalmond;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
