@@ -1,3 +1,4 @@
+
 <?php
 require "conexion.php";
 mysqli_set_charset($conexion,'utf8');
@@ -9,7 +10,7 @@ mysqli_set_charset($conexion,'utf8');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="shortcut icon" href="Media/web" type="image/x-icon">
+    <link rel="shortcut icon" href="Media/web.png" type="image/x-icon">
     <title>Proyecto</title>
 </head>
 <body>
@@ -46,12 +47,12 @@ mysqli_set_charset($conexion,'utf8');
         }
         echo "</table>";
     } else {
-        echo "<h1 class='sin-registro'>Sin Ningun registro</h1>";
+        echo "<br><br><h1 class='sin-registro'>Sin Ningun registro</h1>";
     }
-
-    echo "<h1 class='opciones'><a href='EliminarUsuario.php'>Eliminar Usuario</a></h1>";
     ?>
 </div>
+    <br><br>
+    <h2><a href='EliminarUsuario.php' class='opciones'>Eliminar Usuario</a> </h2>
 
 </body>
 </html>

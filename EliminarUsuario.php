@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css" class="style">
-    <link rel="shortcut icon" href="Media/web" type="image/x-icon">
+    <link rel="shortcut icon" href="Media/web.png" type="image/x-icon">
     <title>Proyecto</title>
 </head>
 
@@ -18,8 +18,7 @@
         <button type="submit" class='raise'>Eliminar usuario</button>
 
     </form>
-    
-    <h1><a href="lectura.php" class='opciones'>Inicio de listas</a></h1>
+    <h2><a href="lectura.php" class='opciones'>Inicio de listas</a> </h2>
 
 </body>
 

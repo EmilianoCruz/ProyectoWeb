@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="estilos.css">
-    <link rel="shortcut icon" href="Media/web" type="image/x-icon">
+    <link rel="shortcut icon" href="Media/web.png" type="image/x-icon">
     <title>Proyecto</title>
 </head>
 <body>

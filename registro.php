@@ -7,7 +7,7 @@ session_start();
  <title>Registro</title>
  <meta charset = "utf-8">
  <link rel="stylesheet" href ="estilos.css">
- <link rel="shortcut icon" href="Media/web" type="image/x-icon">
+ <link rel="shortcut icon" href="Media/web.png" type="image/x-icon">
 <title>Proyecto</title>
 </head>
 

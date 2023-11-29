@@ -1,5 +1,5 @@
 body{
-    background: rgb(255, 171, 111);
+    background: rgb(165, 71, 42);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -52,7 +52,20 @@ h1{
     width: 400px;
     font-size: x-large;
 }
-
+.eliminar{
+    border: 3px solid #aaaa;
+    background-color: cornsilk;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
 .opciones{
         border: 3px solid #aaaa;
         background-color: cornsilk;
@@ -72,7 +85,7 @@ h1{
 }
 
 
-
+/* Ventana del login */
 .ventana{
     background: blanchedalmond;
     text-align: center;
@@ -109,19 +122,19 @@ form label{
 
 /* Estilos de los registros */
 .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 400px;
-    
 }
+
 table {
-    color: lightgoldenrodyellow;
+    color: darkred;
     font-size: 14px;
     table-layout: fixed;
     border-collapse: collapse;
-    
+    background-color: bisque;
 }
 
 thead {
@@ -132,6 +145,7 @@ th {
     padding: 20px 15px ;
     font-weight: 700;
     text-transform: uppercase;
+    background-color: rgb(216, 193, 164);
 }
 
 td {
@@ -145,7 +159,7 @@ tbody tr {
 }
 
 tbody tr:hover {
-    background: darkslateblue;
+    background: darksalmon;
 }
 
 
