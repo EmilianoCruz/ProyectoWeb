@@ -47,12 +47,11 @@ mysqli_set_charset($conexion,'utf8');
         }
         echo "</table>";
     } else {
-        echo "<br><br><h1 class='sin-registro'>Sin Ningun registro</h1>";
+        echo "<h1 class='sin-registro'>Sin Ningun registro</h1>";
     }
     ?>
 </div>
-    <br><br>
-    <h2><a href='EliminarUsuario.php' class='opciones'>Eliminar Usuario</a> </h2>
+    <h2><a href='EliminarUsuario.php' class='eliminar'>Eliminar Usuario</a> </h2>
 
 </body>
 </html>

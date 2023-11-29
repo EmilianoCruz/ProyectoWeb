@@ -1,8 +1,8 @@
 <?php
-$host_db = "localhost:3306";
-$user_db = "root";
-$pass_db = "135796248";
-$db_name = "asistencia";
+$host_db = "sql313.infinityfree.com";
+$user_db = "if0_35204113";
+$pass_db = "cAFysVsPgT6JCz";
+$db_name = "if0_35204113_asistencia";
 $tbl_name = "usuarios";
 
 $conexion = new mysqli($host_db, $user_db, $pass_db, $db_name);

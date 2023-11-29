@@ -145,7 +145,7 @@ th {
     padding: 20px 15px ;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: rgb(216, 193, 164);
+    background-color: rgb(255, 201, 135);
 }
 
 td {
@@ -188,3 +188,4 @@ button:hover, button:focus {
   border-color: var(--hover);
   color: darkred;
 }
+
