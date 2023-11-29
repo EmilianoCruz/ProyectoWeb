@@ -7,6 +7,8 @@ session_start();
  <title>Registro</title>
  <meta charset = "utf-8">
  <link rel="stylesheet" href ="estilos.css">
+ <link rel="shortcut icon" href="Media/web" type="image/x-icon">
+<title>Proyecto</title>
 </head>
 
 
@@ -28,8 +30,11 @@ session_start();
 
 <body>
  <header>
- <a href="index.php" class='inicio'>Inicio</a> 
- <br><br>
+ <a href="index.php" class='inicio'>
+    <img src="Media/inicio.png" alt="Icono de inicio" width="40" height="40">
+    Inicio
+</a> 
+<br><br>
  <h1 style="text-align:center">Registro </h1>
 </header>
 

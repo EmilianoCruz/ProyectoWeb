@@ -9,7 +9,8 @@ mysqli_set_charset($conexion,'utf8');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <title>Tu Título</title>
+    <link rel="shortcut icon" href="Media/web" type="image/x-icon">
+    <title>Proyecto</title>
 </head>
 <body>
 

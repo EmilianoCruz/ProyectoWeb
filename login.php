@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="estilos.css">
-    <title>ICO</title>
+    <link rel="shortcut icon" href="Media/web" type="image/x-icon">
+    <title>Proyecto</title>
 </head>
 <body>
-<a href="index.php" class='inicio'>Inicio</a> 
-<br><br>
+<a href="index.php" class='inicio'>
+    <img src="Media/inicio.png" alt="Icono de inicio" width="40" height="40">
+    Inicio
+</a> 
 <form action="principal.php" method="post">
     <div class="ventana">
         <br>

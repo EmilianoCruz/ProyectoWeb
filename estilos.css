@@ -1,5 +1,5 @@
 body{
-    background: rgb(202, 116, 55);
+    background: rgb(255, 171, 111);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,7 +21,8 @@ a:visited{
         right: 10px;
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
-        color: black;      
+        color: black;   
+        font-size: 1cm;   
 }
 
 h1{
@@ -71,9 +72,6 @@ h1{
 }
 
 
-/* button:hover{
-    background: brown;
-} */
 
 .ventana{
     background: blanchedalmond;
@@ -115,7 +113,6 @@ form label{
     margin: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    text-align: center;
     width: 400px;
     
 }
